@@ -3,6 +3,9 @@ name: ast.py flake
 on:
   push:
     branches: [ "master" ]
+    paths:
+      - ".github/workflows/**"
+      - "ast.py"
   pull_request:
     branches: [ "master" ]
 
