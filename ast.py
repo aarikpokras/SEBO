@@ -28,7 +28,7 @@ Working on:
 ----------------------OT-P---------------------------
 """
 
-line = "print 'hello dad!' print 'hello mom!!'"
+line = "print 'test token!' print 'hello world!'"
 
 tokens = []
 
