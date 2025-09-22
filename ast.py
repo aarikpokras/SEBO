@@ -77,11 +77,8 @@ print(tokens)
 # Token decider
 i = 0
 while i < len(tokens):
-  if (tokens[i][0] != "!"): # for now, should only be "print". This could be changed
-    ast += tokens[i]        # later to evaluate individual tokens depending on the developing structure of SEBO.
-  else: # if a string (i.e. begins with !, we'll remove this here)
+  if (tokens[i][0] == "!"): # if a string (i.e. begins with !, we'll remove this here)
     tokens[i] = tokens[i].replace("!", "", 1)
-    ast += "[" + str(len(tokens[i])+1) + " x i8] c\"" + tokens[i] + "\\00\"\n" # 1 is added to len here because of \00
   i += 1
 
 # Token evaluator
