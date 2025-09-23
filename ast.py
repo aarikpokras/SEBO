@@ -4,16 +4,7 @@ ALL LINES OF SEBO CODE MUST END IN A SPACE!
 SEBOTLF Abstract Syntax Tree Translator v0.25 (OT-P). To be written in C++ later.
 Syntax that's Easy, Bold, and Efficient
 Aarik Pokras
-Last revised Wed Sep 17 :)
-TODO
-[x] Make '-enclosed string a token.
-[ ] Escapable ' quotes
-[-] Emit C? LLVM? to file and compile input program.
-[ ] Most importantly, cow-themed jokes that show up
-    when certain command line flags are used.
-[ ] Combine read file into one line. Program tweaks
-    out when this isn't done.
-[ ] Compiler errors.
+
 ----------------------9/22/2025----------------------
 Everything is working fine. Make sure to read notes.
 Working on:
@@ -28,7 +19,7 @@ Working on:
 ----------------------OT-P---------------------------
 """
 
-line = "print 'test token!' print 'hello world!'"
+line = "print 'hello dad!' print 'hello mom!!'"
 
 tokens = []
 
