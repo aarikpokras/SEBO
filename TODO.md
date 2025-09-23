@@ -1,0 +1,6 @@
+- [x] Make '-enclosed string a token.
+- [ ] Escapable ' quotes
+- [ ] Emit LLVM to file and compile input program. (IP)
+- [ ] Most importantly, cow-themed jokes that show up when certain command line flags are used.
+- [ ] Combine read file into one line. Program tweaks out when this isn't done.
+- [ ] Compiler errors.
